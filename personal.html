@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hobbies & Personal | Hanwen Zhu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hobbies and personal projects of Hanwen Zhu.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div>
+        <h1 class="site-title">Hanwen Zhu</h1>
+        <p class="site-subtitle">PhD Student · Operations, Technology &amp; Information Management · Cornell</p>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html#about">About</a>
+        <a href="index.html#research">Research</a>
+        <a href="personal.html">Personal</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Hobbies &amp; Personal Projects</h2>
+      <p class="section-intro">
+        Outside of formal research, I like using code, tools, and small experiments to make everyday life
+        with friends (and with myself) a bit more interesting and intentional.
+      </p>
+    </section>
+
+    <section class="section">
+      <h3>Obsidian &amp; Personal Knowledge</h3>
+      <p>
+        I am a deep user of <strong>Obsidian</strong>. I maintain a detailed research log there and track how
+        I spend my time across tasks and projects. I use scripts and small pieces of code to summarize
+        my daily work and generate statistics automatically.
+      </p>
+      <p>
+        Over time, this has grown into a personal knowledge system: I can see how ideas evolve, how
+        different projects connect, and where my attention actually goes. I’m exploring ways to turn
+        these notes into visual knowledge maps and other tools that make my thinking more transparent
+        to myself.
+      </p>
+      <p>
+        In the future, I would like to experiment with building my own <strong>Obsidian plugin</strong> to
+        support research logging and time-aware knowledge graphs.
+      </p>
+    </section>
+
+    <section class="section">
+      <h3>Small Web Experiments with Friends</h3>
+      <p>
+        I enjoy building small websites to make time with friends more fun and memorable. Some examples include:
+      </p>
+      <ul class="project-list">
+        <li>
+          <strong>Truth or Dare</strong><br>
+          <span class="project-tag">Party tool</span>
+          <p class="project-description">
+            A simple web app that generates random prompts for truth-or-dare games, designed to balance
+            silly questions with more reflective ones.
+          </p>
+        </li>
+        <li>
+          <strong>100 Things That Could Warm Your Winter</strong><br>
+          <span class="project-tag">Joy project</span>
+          <p class="project-description">
+            A small site that lists tiny, specific things that can make winter feel warmer — from
+            favorite snacks to small rituals. It started as a way to cheer up friends during cold
+            semesters.
+          </p>
+        </li>
+      </ul>
+      <p>
+        These projects are lightweight, but they capture something I care about: using code and design 
+        to improve the experiences we share with other people.
+      </p>
+      <!-- Later: you can add actual links like: -->
+      <p>
+        Some of these are quietly online. A few examples:
+        <br>
+        <a href="https://truthordare-yekb.onrender.com" target="_blank" rel="noopener">Truth or Dare</a>
+        ·
+        <!-- <a href="https://your-warm-winter-link" target="_blank" rel="noopener">Warm Winter</a> -->
+      </p>
+
+    </section>
+
+    <section class="section">
+      <h3>Why This Matters to Me</h3>
+      <p>
+        At a high level, my research and my hobbies are connected by the same question:
+        <em>how can we design systems that make it easier for people to do meaningful work and enjoy their lives?</em>
+      </p>
+      <p>
+        Sometimes the answer is a formal model or an econometric study. Sometimes it is a tiny web app,
+        a better note-taking workflow, or a game with friends.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Hanwen Zhu. All rights reserved.</p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
