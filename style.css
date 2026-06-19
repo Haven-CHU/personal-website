@@ -100,17 +100,15 @@ body {
   justify-content: center;
 }
 
-.photo-placeholder {
-  width: 160px;
-  height: 160px;
-  border-radius: 999px;
-  border: 2px dashed #d1d5db;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #9ca3af;
-  font-size: 0.9rem;
-  background: #f3f4f6;
+.profile-photo {
+  width: 100%;
+  max-width: 220px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 0.9rem;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 14px rgba(17, 24, 39, 0.08);
+  display: block;
 }
 
 /* Paper / research entries */
@@ -125,7 +123,17 @@ body {
 
 .paper h4 {
   font-size: 1.1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.paper-authors {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 0.6rem;
+}
+
+.paper p + p {
+  margin-top: 0.75rem;
 }
 
 .paper p {
